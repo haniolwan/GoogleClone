@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar {
+            height: 50px;
+            /* background-color: aqua; */
+        }
+        
+        ul {
+            text-align: right;
+            list-style-type: none;
+            margin: 0px;
+            padding: 5px;
+        }
+        
+        li {
+            margin: 8px;
+            display: inline;
+        }
+        
+        .avatar {
+            vertical-align: middle;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 40px;
+            margin: 0 auto;
+        }
+        
+        .search-bar {
+            text-align: center;
+            padding-top: 20px;
+        }
+        
+        .search-bar input {
+            width: 40%;
+            height: 40px;
+            border: 1px solid #dfe1e5;
+            border-radius: 20px;
+            outline: none;
+            /* padding: 200px; */
+        }
+        
+        .search-icon {
+            position: relative;
+            right: 540px;
+            top: 8px;
+        }
+        
+        .mic-icon {
+            position: relative;
+            right: 70px;
+            top: 8px;
+        }
+        
+        .search-buttons {
+            text-align: center;
+            padding: 40px;
+            margin: 0 auto;
+            /* margin-bottom: 0; */
+        }
+        
+        .btn {
+            width: 130px;
+            height: 40px;
+            margin: 5px;
+            border: none;
+            background-color: #F8F9FA;
+        }
+        /* .btn:hover {
+            border-width: 50px;
+        }
+         */
+        
+        .btn:hover {
+            /* border-color: gray; */
+            /* border-radius: 20px; */
+            /* outline: auto; */
+        }
+        
+        .lang {
+            text-align: center;
+            margin: 0 auto;
+            color: #474747;
+        }
+        
+        .footer {
+            position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/
+            height: 40px;
+            background: grey;
+        }
+        
+        .footer .left-items {
+            position: absolute;
+            left: 0;
+            top: 20px;
+            margin-left: 20px;
+        }
+        
+        .footer .right-items {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            margin-right: 20px;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .link {
+            color: #424040;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li>
+                <a href="" class="link">Gmail</a>
+            </li>
+            <li>
+                <a href="" class="link">Images</a>
+            </li>
+            <li style="vertical-align: bottom;">
+                <a href="">
+                    <img src=" img/google-apps.png " alt=" "></a>
+            </li>
+            <li>
+                <a href="">
+                    <img class="avatar" src=" https://lh3.googleusercontent.com/ogw/ADea4I4JzH1AT8E5hh4uIf6JcZIxbhFXbG5u3Hr-4bjl=s32-c-mo " srcset=" https://lh3.googleusercontent.com/ogw/ADea4I4JzH1AT8E5hh4uIf6JcZIxbhFXbG5u3Hr-4bjl=s32-c-mo 1x, https://lh3.googleusercontent.com/ogw/ADea4I4JzH1AT8E5hh4uIf6JcZIxbhFXbG5u3Hr-4bjl=s64-c-mo 2x "
+                        alt=" " aria-hidden=" true " style="padding-bottom:5px ;">
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- Navbar -->
+
+    <div class="content">
+        <div class="header">
+            <img class=" lnXdpd " alt=" Google " height=" 92 " src=" https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png " width=" 272 ">
+        </div>
+
+        <div class="search-bar">
+            <form id="form">
+                <input type=" search " id=" query " name="search">
+
+                <img src="img/search.png" alt="" class="search-icon">
+                <img src="img/mic.png" alt="" class="mic-icon">
+
+            </form>
+        </div>
+        <div class="search-buttons">
+            <button type="button" class="btn">Google Search</button>
+            <button type="button" class="btn">I'm Feeling Lucky</button>
+        </div>
+
+        <div class="lang">
+            <p>Google offered in :<a href=" ">العربية</a></p>
+        </div>
+    </div>
+
+    <div class="footer" style="background-color: #F2F2F2;">
+        <ul>
+
+            <div class="right-items">
+                <li>
+                    <a href="" class="link">Privacy</a>
+                </li>
+                <li>
+                    <a href="" class="link">Terms</a>
+                </li>
+                <li>
+                    <a href="" class="link">Settings</a>
+                </li>
+            </div>
+
+            <div class="left-items">
+                <li>
+                    <a href="" class="link">About</a>
+                </li>
+                <li>
+                    <a href="" class="link">Advertising</a>
+                </li>
+                <li>
+                    <a href="" class="link">Business</a>
+                </li>
+                <li>
+                    <a href="" class="link">How Search works</a>
+                </li>
+            </div>
+
+        </ul>
+    </div>
+</body>
+
+</html>
